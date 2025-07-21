@@ -1,14 +1,13 @@
 \documentclass[12pt]{book}
 
 % Packages
-\usepackage{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{example}[theorem]{Example}
 \newtheorem{remark}[theorem]{Remark}
-
 
 \title{All My Math}
 \author{Kai Friedemann}
@@ -20,6 +19,12 @@
 \begin{document}
 \maketitle
 \tableofcontents
+\cite{Devaney1989}
+\part{Probability Theory}
+\chapter{Probability and Measure Theory}
+\input{01 Probability Theory/01 Basic Definitions/Probability.tex}
 
+\bibliographystyle{plain}
+\bibliography{references}  
 
 \end{document}

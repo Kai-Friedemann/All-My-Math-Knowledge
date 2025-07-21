@@ -1,0 +1,33 @@
+{
+  "cSpell.words": [
+    "Billingsley",
+    "Devaney",
+    "emptyset",
+    "forall",
+    "Forall",
+    "intab",
+    "Leftrightarrow",
+    "mapsto",
+    "mathbb",
+    "mathcal",
+    "Mathcal",
+    "notin",
+    "Rightarrow",
+    "setminus",
+    "sumi"
+  ],
+  "editor.tabCompletion": "onlySnippets",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.quickSuggestions": { 
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "[latex]": {
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 75,
+    "editor.wrappingIndent": "same",
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.tabCompletion": "onlySnippets"
+  }
+}

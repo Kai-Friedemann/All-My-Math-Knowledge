@@ -1,0 +1,30 @@
+\section{Probability}
+
+To begin with, let \( \Omega \) denote the unit interval \( (0,1] \). Let \( \omega \in \Omega \). Let \( I = (a,b] \) and the length of \( I \) be 
+\begin{equation}
+  |I| = |a-b| = b-a.  
+\end{equation} \cite{Billingsley1995} 
+
+Using these two constructions, we may now formulate what a probability is. First, let 
+\begin{equation}
+  A = \bigcup^n_{i=1}I_i
+\end{equation}
+where \( i_I \) are disjoint and contained in \( \Omega \), then assign \( A \) the Probability 
+\begin{equation}
+  P(A) = \sum^n_{i=1}|I_i|. 
+\end{equation} \cite{Billingsley1995} 
+
+Let us unpack this construction. As a base we take the unit interval, and define sub-intervals of it such that they do not overlap. This prevents double counting under the union, which allows for significantly more straightforward arithmetic. The lengths of all these intervals must then be less than or equal to \( 1 \). Therefore, \( 0\leq P(A)\leq1 \).   
+
+Let \( A \) and \( B \) be defined as above with the additional constraint that they are also disjoint. Then, let
+\begin{equation}
+  P(A\cup B) = P(A)+P(B),
+\end{equation}
+Which is a consequence of the additivity of the Riemann integral:\begin{equation}
+  \int^1_0(f(\omega)+g(\omega))d\omega = \int^1_0 f(\omega)d\omega+\int^1_0g(\omega)d\omega. 
+\end{equation} \cite{Billingsley1995} 
+
+Let \( f(\omega) \) be a step function taking value \( c_j \) in the interval \( x_{j-1},x_j \), where \( 0 = x_0 < x_1< \dots <x_k = 1 \), then its integral in the sense of Riemann has the value \begin{equation}
+  \int_{1}^{0} f(omega)d\omega = \sum^k_{j=1}c_j(x_j-x_{j-1}).
+\end{equation}   
+
